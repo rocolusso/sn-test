@@ -4,7 +4,7 @@ import {ChevronDown} from "lucide-react";
 const Tabs = () => {
 
     const [open, setOpen] = React.useState(1);
-    const handleOpen = (value) => setOpen(open === value ? 0 : value);
+    const handleOpen = (value:any) => setOpen(open === value ? 0 : value);
 
 
     return (
